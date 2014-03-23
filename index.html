@@ -3,20 +3,33 @@
 <head>
 <meta charset="utf-8">
 <title>胡子-即时战略游戏</title>
-<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
 <link rel="stylesheet" href="styles.css" type="text/css" media="screen" charset="utf-8">
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/store.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/resourceloader.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/singlegame.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/game.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/task.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/sounds.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <div id="gamecontainer">
-  <div id="singleplayer" class="gamebtn_"></div>
-  <div id="multiplayer" class="gamebtn_"></div>
-  <div id="config" class="gamebtn_"></div>
-  <div id="aboutme" class="gamebtn_"></div>
-  <div id="checkbullet"></div>
-  <div id="hero1" class="hero_"></div>
-  <div id="hero2" class="hero_"></div>
-  <div id="hero3" class="hero_"></div>
+	<div id="startscene">
+	  <div id="singleplayer" class="gamebtn_"></div>
+	  <div id="multiplayer" class="gamebtn_"></div>
+	  <div id="config" class="gamebtn_"></div>
+	  <div id="aboutme" class="gamebtn_"></div>
+	  <div id="checkbullet"></div>
+	  <div id="hero1" class="hero_"></div>
+	  <div id="hero2" class="hero_"></div>
+	  <div id="hero3" class="hero_"></div>
+	</div>
+  <div id="gamescene"></div>
+  <div id="loadingscene">
+    	<div id="progressbar"></div>
+        <div id="progresstip"></div>
+  </div>
 </div>
 </body>
 </html>

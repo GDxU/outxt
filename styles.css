@@ -4,8 +4,12 @@ body{
 #gamecontainer {
 	width:798px;
 	height:498px;
-	background: url(images/common/bg.jpg);
 	border: 1px solid black;
+}
+#startscene {
+	width:798px;
+	height:498px;
+	background: url(images/common/bg.jpg);
 }
 #singleplayer {
 	position:absolute;
@@ -57,7 +61,7 @@ body{
 	width:60px;
 	height:60px;
 	z-index:2;
-	left: 150px;
+	left: 141px;
 	top: 149px;
 	cursor:pointer;
 }
@@ -66,7 +70,7 @@ body{
 	width:60px;
 	height:60px;
 	z-index:2;
-	left: 150px;
+	left: 142px;
 	top: 242px;
 	cursor:pointer;
 }
@@ -75,7 +79,37 @@ body{
 	width:60px;
 	height:60px;
 	z-index:2;
-	left: 150px;
+	left: 143px;
 	top: 339px;
 	cursor:pointer;
+}
+#gamescene {
+	width:640px;
+	height:530px;
+	display:none;
+}
+#loadingscene {
+	position:absolute;
+	width:798px;
+	height:498px;
+	background:rgba(100,100,100,0.7);
+	z-index:10;
+	left: 10px;
+	top: 10px;
+    display:none;
+}
+#progressbar {
+	position:absolute;
+	width:220px;
+	height:44px;
+	background: url(images/common/loading.png);
+	left: 333px;
+	top: 80px;
+}
+#progresstip {
+	position:absolute;
+	width:500px;
+	height:300px;
+	left: 160px;
+	top: 120px;
 }
